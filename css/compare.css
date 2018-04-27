@@ -1,0 +1,354 @@
+.compare-main{
+	height: 4700px;
+	background: #F5F5F5;
+}
+.breadcrumbs{
+font-size: 12px;
+line-height: 40px;
+color: #616161;
+}
+.breadcrumbs a{
+	color: #757575;
+}
+.nav-bar {
+ height:40px;
+ background:#f5f5f5;
+ font-size:12px;
+ color:#616161;
+ line-height:40px
+}
+.compare-head {
+ height:500px;
+ position:relative;
+ overflow:hidden;
+ _zoom:1;
+ color:#616161;
+ text-align:center;
+ display:none
+}
+.compare-head .title {
+ margin:80px 0 0 0;
+ font-size:36px;
+ font-weight:normal;
+ line-height:36px
+}
+.compare-head .content {
+ font-size:18px;
+ line-height:20px;
+ margin-top:20px
+}
+.compare-head.active {
+ display:block
+}
+.compare-space {
+ background:#f5f5f5
+}
+.compare-body {
+ position:absolute;
+ width:1226px;
+ left:50%;
+ margin-left:-613px;
+ top:510px;
+ background:#f5f5f5
+}
+.compare-body h1,.compare-body h2,.compare-body h3,.compare-body ul,.compare-body p {
+ margin:0px;
+ padding:0px;
+ list-style-type:none;
+ font-weight:normal
+}
+.compare-body .list-phone {
+ padding-left:48px;
+ padding-right:48px;
+ background:#fff
+}
+.compare-body .body-nav {
+ padding-top:30px;
+ padding-bottom:30px;
+ font-size:18px;
+ color:#424242;
+ line-height:28px
+}
+.compare-body .body-nav .active {
+ color:#ff6700
+}
+.compare-body .sep {
+ padding-left:25px;
+ padding-right:25px;
+ font-size:18px;
+ color:#e0e0e0
+}
+.compare-body .body-table {
+ display:none
+}
+.compare-body .body-table th,.compare-body .body-table td {
+ border-top:1px solid #e0e0e0
+}
+.compare-body .body-table td {
+ font-size:14px;
+ color:#616161;
+ line-height:25px;
+ padding-top:20px;
+ padding-bottom:25px;
+ vertical-align:top
+}
+.compare-body .body-table td b {
+ font-size:16px;
+ color:#333
+}
+.compare-body .body-table .phone-main {
+ width:220px;
+ text-align:center
+}
+.compare-body .body-table.active {
+ display:block
+}
+.compare-body .icon-color {
+ display:inline-block;
+ *zoom:1;
+ *display:inline;
+ width:28px;
+ height:28px;
+ background-image:url("../img/icon-colors.jpg");
+ background-repeat:no-repeat;
+ overflow:hidden;
+ _zoom:1
+}
+.compare-body .icon-color-0 {
+ background-position:0px 0
+}
+.compare-body .icon-color-1 {
+ background-position:-28px 0
+}
+.compare-body .icon-color-2 {
+ background-position:-56px 0
+}
+.compare-body .icon-color-3 {
+ background-position:-84px 0
+}
+.compare-body .icon-color-4 {
+ background-position:-112px 0
+}
+.compare-body .icon-color-5 {
+ background-position:-140px 0
+}
+.compare-body .icon-color-6 {
+ background-position:-168px 0
+}
+.compare-body .icon-color-7 {
+ background-position:-196px 0
+}
+.compare-body .icon-color-8 {
+ background-position:-224px 0
+}
+.compare-body .icon-color-9 {
+ background-position:-252px 0
+}
+.compare-body .icon-color-10 {
+ background-position:-280px 0
+}
+.compare-body .icon-color-11 {
+ background-position:-308px 0
+}
+.compare-body .icon-color-12 {
+ background-position:-336px 0
+}
+.compare-body .icon-color-13 {
+ background-position:-364px 0
+}
+.compare-body .icon-color-14 {
+ background-position:-392px 0
+}
+.compare-body .icon-color-15 {
+ background-position:-420px 0
+}
+.compare-body .icon-color-16 {
+ background-position:-448px 0
+}
+.compare-body .icon-color-17 {
+ background-position:-476px 0
+}
+.compare-body .icon-color-18 {
+ background-position:-504px 0
+}
+.compare-body .icon-color-19 {
+ background-position:-532px 0
+}
+.compare-body .icon-color-20 {
+ background-position:-560px 0
+}
+.compare-body .icon-color-21 {
+ background-position:-588px 0
+}
+.compare-body .icon-color-22 {
+ background-position:-616px 0
+}
+.compare-body .icon-color-23 {
+ background-position:-644px 0
+}
+.compare-body .icon-color-24 {
+ background-position:-672px 0
+}
+.compare-body .icon-color-25 {
+ background-position:-700px 0
+}
+.compare-body .icon-color-26 {
+ background-position:-728px 0
+}
+.compare-body .icon-color-27 {
+ background-position:-756px 0
+}
+.compare-body .icon-color-28 {
+ background-position:-784px 0
+}
+.compare-body .icon-color-29 {
+ background-position:-812px 0
+}
+.compare-body .icon-color-30 {
+ background-position:-840px 0
+}
+.compare-body .icon-color-31 {
+ background-position:-868px 0
+}
+.compare-body .icon-color-32 {
+ background-position:-896px 0
+}
+.compare-body .icon-color-33 {
+ background-position:-924px 0
+}
+.compare-body .icon-color-34 {
+ background-position:-952px 0
+}
+.compare-body .icon-color-35 {
+ background-position:-980px 0
+}
+.compare-body .icon-color-36 {
+ background-position:-1008px 0
+}
+.compare-body .icon-color-37 {
+ background-position:-1036px 0
+}
+.compare-body .icon-color-38 {
+ background-position:-1064px 0
+}
+.compare-body .icon-color-39 {
+ background-position:-1092px 0
+}
+.compare-body .icon-color-40 {
+ background-position:-1120px 0
+}
+.compare-body .icon-color-41 {
+ background-position:-1148px 0
+}
+.compare-body .icon-color-42 {
+ background-position:-1176px 0
+}
+.compare-body .icon-color-43 {
+ background-position:-1204px 0
+}
+.compare-body .icon-color-44 {
+ background-position:-1232px 0
+}
+.compare-body .icon-color-45 {
+ background-position:-1260px 0
+}
+.compare-body .icon-color-46 {
+ background-position:-1288px 0
+}
+.compare-body .icon-color-47 {
+ background-position:-1316px 0
+}
+.compare-body .icon-color-48 {
+ background-position:-1344px 0
+}
+.compare-body .icon-color-49 {
+ background-position:-1372px 0
+}
+.compare-body .icon-color-50 {
+ background-position:-1400px 0
+}
+.compare-body .column-5 {
+ text-align:left
+}
+.compare-body .column-5 td {
+ width:196px;
+ padding-right:10px
+}
+.compare-body .column-5 .column-title {
+ width:100px;
+ padding-right:0px
+}
+.compare-body .column-5 .phone-main {
+ width:196px
+}
+.compare-body .column-4 {
+ text-align:left
+}
+.compare-body .column-4 th,.compare-body .column-4 td {
+ width:215px;
+ padding-right:40px
+}
+.compare-body .column-4 .column-title {
+ width:110px;
+ padding-right:0px
+}
+.compare-body .column-3 {
+ text-align:left
+}
+.compare-body .column-3 th,.compare-body .column-3 td {
+ width:300px;
+ padding-right:40px
+}
+.compare-body .column-3 .column-title {
+ width:110px;
+ padding-right:0px
+}
+.compare-body .column-2 {
+ text-align:left
+}
+.compare-body .column-2 th,.compare-body .column-2 td {
+ width:370px;
+ padding-right:40px
+}
+.compare-body .column-2 .column-title {
+ width:310px;
+ padding-right:0px
+}
+.compare-body th {
+ padding-top:50px;
+ padding-bottom:40px
+}
+.compare-body th .title {
+ font-size:22px;
+ color:#333;
+ line-height:25px
+}
+.compare-body th .content {
+ margin-top:10px;
+ font-size:14px;
+ color:#616161;
+ line-height:20px;
+ height:40px
+}
+.compare-body th .price {
+ font-size:14px;
+ color:#ff6700;
+ line-height:25px;
+ height:75px
+}
+.compare-body th .img img {
+ height:175px
+}
+.compare-body th .btns {
+ margin-top:30px;
+margin-top: 30px;
+height: 50px;
+border: 1px solid #ff6700;
+line-height: 50px;
+}
+.compare-body th .btns a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+

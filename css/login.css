@@ -1,0 +1,291 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a {
+	color:#757575;
+	text-decoration:none
+}
+a:hover {
+	color:#ff6700;
+	text-decoration:none
+}
+.head{
+	font: 14px "微软雅黑";
+}
+.h-logo{
+	position: relative;
+	width: 1200px;
+	height: 62px;
+	margin: 20px auto;
+}
+.h-logo .logo{
+	width: 200px;
+    height: 98px;
+	background: url(../img/mistore_logo.png) no-repeat;
+}
+.h-logo .logo a{
+	display: block;
+	height: 98px;
+}
+.h-logo span:nth-child(2){
+	position: absolute;
+	top: -8px;
+	left: 83px;
+	font-weight: 500;
+	font-size: 40px;
+}
+.h-logo span:nth-child(3){
+	position: absolute;
+	top: 45px;
+	left: 83px;
+}
+.h-among{
+	position: relative;
+	width: 100%;
+	height: 588px;
+	background: url(../img/e9a192669d8238d5c4732ef534b239ee.jpg) no-repeat 53%;
+}
+.h-among .h-amwh{
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+}
+.h-among .h-wh{
+	width: 440px;
+	height: 540px;
+	background: #fff;
+	position: absolute;
+	top: 24px;
+	left: 800px;
+}
+
+#scan{
+	display: none;
+	position: absolute;
+	top: 54px;
+	padding: 120px 84px 180px;
+	text-align: center;
+}
+#scanning{
+	width: 180px;
+	height: 180px;
+	padding: 0 65px;
+}
+.h-among .h-wh h4:nth-child(1){
+	position: absolute;
+	font-size: 30px;
+	font-weight: normal;
+	color: #f56600;
+	top: 20px;
+	left: 62px;
+}
+.h-among .h-wh span:nth-child(2){
+	position: absolute;
+	font-size: 36px;
+	color: #e0e0e0;
+	top: 15px;
+	left: 50%;
+}
+.h-among .h-wh h4:nth-child(3){
+	position: absolute;
+	font-size: 30px;
+	font-weight: normal;
+	color: #333;
+	top: 20px;
+	left: 260px;
+}
+#h-con{
+	position: absolute;
+	top: 100px;
+	left: 55px;
+}
+#h-num{
+	position: absolute;
+	top: 10px;
+	left: 0;
+	width: 318px;
+	height: 40px;
+	border: 1px solid #e0e0e0;
+	padding-left: 10px;
+}
+#h-code{
+	position: absolute;
+	top: 70px;
+	left: 0;
+	width: 318px;
+	height: 40px;
+	border: 1px solid #e0e0e0;
+	padding-left: 10px;
+}
+.h-wh-numco{
+	position: relative;
+	width: 318px;
+	height: 40px;
+	border: 1px solid #e0e0e0;
+	padding-left: 10px;
+}
+#h-wh-numco{
+	display: none;
+}
+#h-coode{
+	display: inline-block;
+	position: absolute;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 10px;
+	color: #333;
+	border-right: 1px solid #e0e0e0;
+	overflow: hidden;
+	padding-right: 10px;
+}
+#h-phone,#h-validateCode{
+	position: absolute;
+    left: 58px;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 16px;
+    border: none;
+}
+#h-validateCode{
+	left: 0;
+	border-right: 1px solid #E0E0E0;
+}
+#h-proof{
+	position: absolute;
+	color: #757575;
+	top: 15px;
+	left: 240px;
+	font-size: 14px;
+
+	background: none;
+	outline: none;
+	border: none;
+}
+#H-login{
+	position: absolute;
+	top: 110px;
+	left: 0;
+	width: 330px;
+	height: 26px;
+	font: 14px/26px "微软雅黑";
+	font-weight: normal;
+}
+#h-login{
+	position: absolute;
+	top: 236px;
+	left: 55px;
+	width: 330px;
+	height: 42px;
+	background: #ff6700;
+	line-height: 40px;
+	color: #fff;
+	text-align: center;
+
+	border: none;
+	outline: none;
+}
+#h-note{
+	position: absolute;
+	top: 288px;
+	left: 55px;
+	color: #ff6700;
+	cursor: pointer;
+}
+#h-forget{
+	position: absolute;
+	top: 288px;
+	left: 254px;
+	color: #999999;
+}
+
+.h-among .h-wh hr{
+	position: absolute;
+	width: 110px;
+	bottom: 107px;
+	left: 56px;
+	opacity: 0.2;
+}
+#hr2{
+	left: 272px;
+}
+#h-that{
+	position: absolute;
+	bottom: 100px;
+	left: 178px;
+	color: #bbbbbb;
+}
+.h-among .h-wh .h-icon{
+	position: absolute;
+	bottom: 30px;
+	left: 56px;
+}
+.h-icon i{
+	width: 40px;
+	height: 40px;
+	font: 22px/40px "微软雅黑";
+	color: #fff;
+	border: 1px solid #949494;
+	display: inline-block;
+	border-radius: 50%;
+	text-align: center;
+	margin-left: 30px;
+}
+.h-among .h-icon i:nth-child(1){
+	background: #949494;
+	border-color: #949494;
+}
+.h-among .h-icon i:nth-child(1):hover{
+	background: #0288D1;
+	border-color: #0288D1;
+}
+.h-among .h-icon i:nth-child(2){
+	background: #858585;
+	border-color: #858585;
+}
+.h-among .h-icon i:nth-child(2):hover{
+	background: #D32F2F;
+	border-color: #D32F2F;
+}
+.h-among .h-icon i:nth-child(3){
+	background: #adadad;
+	border-color: #adadad;
+}
+.h-among .h-icon i:nth-child(3):hover{
+	background: #00AAEE;
+	border-color: #00AAEE;
+}
+.h-among .h-icon i:nth-child(4){
+	background: #808080;
+	border-color: #808080;
+}
+.h-among .h-icon i:nth-child(4):hover{
+	background: #00D20D;
+	border-color: #00D20D;
+}
+.foot{
+	width: 1200px;
+	margin: 80px auto 0;
+	text-align: center;
+}
+.foot ul{
+	display: flex;
+	list-style: none;
+	color: #757575;
+	width: 30%;
+	margin: 0 auto;
+}
+.foot ul span{
+	margin: 0 10px;
+}
+#lis1{
+	color: #333;
+}
+.foot div{
+	margin-top: 10px;
+	color: #9d9d9d;
+}
+
+
+

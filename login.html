@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="font_xsdr5kbxmoswcdi/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		
+		<script src="js/jquery.js"></script>
+		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="head">
+			<div class="h-logo">
+				<div class="logo">
+					<a href="index.html"></a>
+				</div>
+			</div>
+			<div class="h-among">
+				<div class="h-amwh">
+				<div class="h-wh">
+					<h4 id="accNum">账号登录</h4><span>|</span><h4 id="scanClick">扫码登录</h4>
+					<div id="scan">
+						<div id="scanning"><img src="img/scan.png"/></div>
+						<div id="scan-text">
+							<p>使用 <span style="color: #FF6700;">小米商城APP</span> 扫一扫</p>
+							<p>小米手机可打开[设置]>[小米账号] 扫码登录</p>
+						</div>
+					</div>
+				<form action="php/login.php" method="post">
+					<div id="accnum">
+					<div id="h-con">
+					<div id="h-nuco">
+					<input type="text" id="h-num" placeholder="邮箱/手机号码/小米ID" name="phone" />
+					<input type="password" id="h-code" placeholder="密码" name="password" />
+					</div>
+					<div id="h-wh-numco">
+					<div class="h-wh-numco">
+						<span id="h-coode">+86</span><input type="text" id="h-phone" value="" placeholder="手机号码" style="width: 238px;" name="phone2" />
+					</div>
+					<div class="h-wh-numco" style="margin-top: 20px;">
+						<input type="text" id="h-validateCode" value="" placeholder="短信验证码" name="validateCode" /><input type="button" id="h-proof" value="获取验证码"></input>
+					</div>
+					</div>
+					<p id="H-login"></p>
+					</div>
+					<input type="submit" name="login" id="h-login" value="登录"></input>
+					<span id="h-note">手机短信登录/注册</span>
+					<span id="h-forget"><a href="register.html">立即注册</a> | <a href="#">忘记密码?</a></span>
+					<hr /><span id="h-that">其他方式登录</span><hr id="hr2"/>
+					<div class="h-icon">
+						<i class="iconfont icon-icon_qq"></i>
+						<i class="iconfont icon-weibo"></i>
+						<i class="iconfont icon-zhifubao"></i>
+						<i class="iconfont icon-weixin"></i>
+					</div>
+					</div>
+				</form>
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="foot">
+			<ul>
+				<li id="lis1">简体</li><span>|</span>
+				<li>繁体</li><span>|</span>
+				<li>English</li><span>|</span>
+				<li>常见问题</li>
+			</ul>
+			<div>小米公司版权所有-京ICP备10046444-<img src="img/ghs.png"/>京公网安备11010802020134号-京ICP证110507号</div>
+		</div>
+	</body>
+</html>

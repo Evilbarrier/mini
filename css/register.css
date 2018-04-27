@@ -1,0 +1,272 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clearfix:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+body{
+	background: #f9f9f9;
+}
+.all{
+	font: 14px "微软雅黑";
+}
+.head{
+	width: 854px;
+	height: 520px;
+	background: white;
+	margin: 80px auto;
+}
+.head img{
+	margin-left: 402px;
+}
+.head h4{
+	font-size: 30px;
+	font-weight: normal;
+	text-align: center;
+	margin-top: 40px;
+}
+.head .countell{
+	margin-top: 40px;
+	margin-left: 262px;
+}
+.head .countell p{
+	color: #333;
+}
+#CN{
+	width: 328px;
+	height: 40px;
+	border: 1px solid #e0e0e0;
+	cursor: pointer;
+	margin-top: 4px;
+}
+#CN span{
+	color: #555;
+	line-height: 40px;
+	padding-left: 10px;
+	border-right: 1px solid #e0e0e0;
+	display: inline-block;
+	width: 277px;
+}
+#CN i{
+	display: inline-block;
+	width: 40px;
+	color: #555;
+	text-align: center;
+}
+
+
+
+#box{
+	display: none;
+	position: absolute;
+	border: 1px solid #CCCCCC;
+	background: #fff;
+    z-index: 5;
+    padding: 15px;
+}
+#box input{
+	width: 296px;
+	line-height: 30px;
+	font-size: 14px;
+	border: 1px solid #ccc;
+}
+#box #list{
+	display: none;
+	margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#box #list li{
+	background: #fff;
+    margin-top: 3px;
+    line-height: 30px;
+    color: #000;
+}
+#box #list li:hover{
+	background: #EAEAEA;
+}
+#box #list li.active{
+    background: #fff;
+}
+
+
+
+
+#pd{
+	color: #666666;
+	margin-top: 4px;
+}
+#phone{
+	margin-top: 10px;
+}
+#tell{
+	margin-top: 4px;
+	width: 72px;
+	height: 40px;
+	border: 1px solid #e0e0e0;
+	float: left;
+	
+}
+#tell span{
+	color: #555555;
+	line-height: 40px;
+	margin-left: 10px;
+}
+#tell i{
+	color: #9d9d9d;
+	margin-left: 6px;
+}
+#tellTxt{
+	width: 244px;
+	height: 40px;
+	border-collapse: collapse;
+	border: 1px solid #e0e0e0;
+	margin-top: 4px;
+	padding-left: 10px;
+	color: #969696;
+}
+
+
+#tell-phone{
+	height: 40px;
+}
+#box-code{
+	display: none;
+	position: absolute;
+	border: 1px solid #CCCCCC;
+	background: #fff;
+    z-index: 5;
+    padding: 15px;
+}
+#box-code input{
+	width: 296px;
+	line-height: 30px;
+	font-size: 14px;
+	border: 1px solid #ccc;
+}
+#box-code #list-code{
+	display: none;
+	margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#box-code #list-code li{
+	background: #fff;
+    margin-top: 3px;
+    line-height: 30px;
+    color: #000;
+    cursor: pointer;
+}
+#box-code #list-code li:hover{
+	background: #EAEAEA;
+}
+#box-code #list-code li.active{
+    background: #fff;
+}
+#p-c{
+	display: none;
+}
+
+#cipher{
+	display: none;
+}
+.head .cipher input{
+	width: 328px;
+	height: 40px;
+	border: 1px solid #D2D2D2;
+	margin-bottom: 20px;
+}
+.head .cipher p{
+	font-weight: bold;
+}
+.head .cipher p:nth-child(2){
+	margin-bottom: 15px;
+}
+#cpr-paswrd{
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+#cpr-phone{
+	color: #FF6700;
+}
+#cpr-phone1{
+	color: #FF6700;
+}
+
+.head .regbox .inputWrap{
+	width: 328px;
+	height: 40px;
+	margin-bottom: 20px;
+}
+.head .regbox .inputWrap .text{
+	width: 70%;
+	outline: none;
+}
+.head .regbox .inputWrap #zphone{
+	width: 28%;
+	outline: none;
+	background: none;
+}
+#regbox {
+	display: none;
+}
+#regboxBtnNext {
+	margin-top: 30px;
+}
+#regboxBtnBack {
+	margin-top: 15px;
+    border: 1px solid #ddd;
+    color: #7c7c7c;
+	background: none;
+}
+
+
+
+
+.head .promptly{
+	width: 330px;
+	height: 42px;
+	background: #ff6700;
+	margin-left: 262px;
+	line-height: 40px;
+	color: #fff;
+	text-align: center;
+
+	border: none;
+	outline: none;
+}
+.head .once{
+	margin-top: 10px;
+	margin-left: 262px;
+	color: #9d9d9d;
+}
+.head .once a{
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+}
+.foot{
+	width: 854px;
+	margin: 0 auto;
+	text-align: center;
+}
+.foot ul{
+	display: flex;
+	list-style: none;
+	color: #757575;
+	width: 232px;
+	margin: 0 auto;
+}
+.foot ul span{
+	margin: 0 10px;
+}
+#lis1{
+	color: #333;
+}
+.foot div{
+	margin-top: 10px;
+	color: #9d9d9d;
+}
